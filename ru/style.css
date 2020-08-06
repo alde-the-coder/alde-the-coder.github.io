@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic");
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: black
+}
+h1 {color: white}
+p  {color:white; font-size: 20px}
+p1 {color:white; font-size: 18px}
+p2 {color:white; font-size: 14px}
+a {color:white; font-size: 16px}
