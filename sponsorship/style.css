@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic");
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: black
+}
+h1 {color: white}
+p  {color:white}
+p1 {color:white}
+p2 {color:white}
+a {color:white}
+.tariff li {
+  list-style-type: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  padding: 16px 0;
+}
+.tariff {
+  display: inline-block;
+  width: 30%;
+  min-width: 150px;
+  margin: 10px;
+  vertical-align: middle;
+  background-color: white;
+  padding: 0;
+}
+.tariff li:last-child {
+  background-color: #f1f1f1;
+  padding: 24px 0;
+}
+.tariff a {
+  background-color: black;
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+}
+.tariff a:hover {
+  background-color: white;
+  color: black;
+}
+#prices {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#prices h2,
+#prices p {
+  color: white;
+}
+
+
+.important {
+  font-weight: bold;
+}
+
+
+#prices .price {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#prices .period {
+  color: black;
+  opacity: 0.4;
+}
