@@ -8,3 +8,27 @@ p  {color:white; font-size: 22px}
 p1 {color:white; font-size: 20px}
 p2 {color:white; font-size: 14px}
 a {color:white; font-size: 14px}
+.vertical-menu {
+    width: 200px;
+    position: absolute; /* Абсолютное позиционирование */
+    up: 15px; /* Положение от нижнего края */
+    right: 15px; /* Положение от правого края */
+    line-height: 1px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
