@@ -27,8 +27,3 @@ a {color:white; font-size: 14px}
 .vertical-menu a:hover {
     background-color: #ccc;
 }
-
-.vertical-menu a.active {
-    background-color: #4CAF50;
-    color: white;
-}
