@@ -10,9 +10,8 @@ p2 {color:white; font-size: 14px}
 a {color:white; font-size: 14px}
 .vertical-menu {
     width: 200px;
-    position: absolute; /* Абсолютное позиционирование */
-    up: 15px; /* Положение от нижнего края */
-    right: 15px; /* Положение от правого края */
+    position: absolute;
+    right: 15px;
     line-height: 1px;
 }
 
